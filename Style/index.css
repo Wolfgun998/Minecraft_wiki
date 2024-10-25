@@ -5,42 +5,57 @@
 body
 {
     font-size: 20px;
-    background-image:url("../Img/backgrounds/grass_block.png");
-    background-repeat:repeat-x;
     background-image:url("../Img/backgrounds/Dirt.webp");
     background-repeat: repeat;
+
     color: antiquewhite;
     font-family:"minecraft";
 }
 h1  
 {
+    color: #55a023;
     text-align: center;
+    text-shadow: 2px 0px 2px #417c1a;
+    
+}
+h3  
+{
+    color: #55a023;
+    text-align: center;
+    text-shadow: 2px 0px 2px #417c1a;
     
 }
 p
 {
     padding: 15px;
+    font-size: 18px;
+    text-shadow: 2px 1px 1px #b1b298;
 }
 a:link 
 {
     text-decoration: none;
-    color:#ffbc6a
+    color: #55a023;
+    text-shadow: 2px 0px 2px #417c1a;
     
 }
 a:visited
 {
     text-decoration: none;
-    color:bisque
+    color: #55a023;
+    text-shadow: 2px 0px 2px #417c1a;
 }
 a:hover
 {
+    text-shadow: 2px 0px 2px #fffde6;
     text-decoration:underline;
-    color:rgb(255, 251, 222)
+    color:#fffbde
+    
 }
 a:active
 {
+    text-shadow: 2px 0px 2px #fffde6;
     text-decoration:underline;
-    color:rgb(255, 255, 255)
+    color:#ffffff
 }
 ul
 {
