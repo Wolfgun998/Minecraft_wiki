@@ -62,3 +62,12 @@ ul
     text-align: center;
     list-style: none;
 }
+
+/*centred everthing if have this class*/
+.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
