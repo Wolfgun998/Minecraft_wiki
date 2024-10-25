@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "minecraft";
+    src: url(../fonts/Minecraft_Seven_2.ttf);
+  }
+body
+{
+    font-size: 20px;
+    background-image:url("../Img/backgrounds/grass_block.png");
+    background-repeat:repeat-x;
+    background-image:url("../Img/backgrounds/Dirt.webp");
+    background-repeat: repeat;
+    color: antiquewhite;
+    font-family:"minecraft";
+}
+h1  
+{
+    text-align: center;
+    
+}
+p
+{
+    padding: 15px;
+}
+a:link 
+{
+    text-decoration: none;
+    color:#ffbc6a
+    
+}
+a:visited
+{
+    text-decoration: none;
+    color:bisque
+}
+a:hover
+{
+    text-decoration:underline;
+    color:rgb(255, 251, 222)
+}
+a:active
+{
+    text-decoration:underline;
+    color:rgb(255, 255, 255)
+}
+ul
+{
+    text-align: center;
+    list-style: none;
+}
